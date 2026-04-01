@@ -1,11 +1,11 @@
 import React from 'react';
 import heroImg from '../assets/banner.png';
 import toolsImage from '../assets/Group5.png'
-import { Play } from 'lucide-react';
+
 
 const Hero = () => {
     return (
-        <div className='max-w-7xl mx-auto px-4 flex flex-col lg:flex-row justify-between items-center gap-6 py-10'>
+        <div className='max-w-7xl mx-auto px-4 flex flex-col lg:flex-row justify-between items-center gap-6 py-16'>
             <div className='w-full'>
                 <div className='flex items-center gap-2 bg-violet-200 p-2 rounded-full w-72 justify-center'>
                     <img src={toolsImage} alt="" />
