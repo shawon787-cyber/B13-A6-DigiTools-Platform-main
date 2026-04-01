@@ -11,7 +11,7 @@
       "Grammar checker"
     ],
     "icon": "🎨",
-    "tagType": "popular"
+    "tagType": "Popular"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "Commercial license"
     ],
     "icon": "🎨",
-    "tagType": "popular"
+    "tagType": "Popular"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "No attribution"
     ],
     "icon": "📷",
-    "tagType": "new"
+    "tagType": "New"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
       "Custom workflows"
     ],
     "icon": "⚙️",
-    "tagType": "popular"
+    "tagType": "Popular"
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
       "Export to PDF"
     ],
     "icon": "📄",
-    "tagType": "new"
+    "tagType": "New"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
       "Analytics dashboard"
     ],
     "icon": "📱",
-    "tagType": "best-seller"
+    "tagType": "Best-seller"
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "Encryption"
     ],
     "icon": "☁️",
-    "tagType": "popular"
+    "tagType": "Popular"
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "Reporting dashboard"
     ],
     "icon": "🗂️",
-    "tagType": "new"
+    "tagType": "New"
   },
   {
     "id": 9,
@@ -123,6 +123,6 @@
       "Email Templates"
     ],
     "icon": "📧",
-    "tagType": "best-seller"
+    "tagType": "Best-seller"
   }
 ]

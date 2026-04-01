@@ -10,7 +10,7 @@ const ProductContent = () => {
         .catch(err => console.error(err));
     })
     return (
-        <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
+        <div className='grid grid-cols-2 md:grid-cols-3 gap-6 mb-16'>
             {
                 categories.map(category => <Product category ={category}></Product>)
             }
