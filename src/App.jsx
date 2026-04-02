@@ -4,10 +4,11 @@ import Cart from './Components/Cart'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Rating from './Components/Rating'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [cart, setCart] = useState([]);
-//  console.log(cart)
 
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
      <Hero></Hero>
      <Rating></Rating>
      <Cart cart ={cart} setCart ={setCart}></Cart>
+     <ToastContainer></ToastContainer>
     </>
   )
 }
