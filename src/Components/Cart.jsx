@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ProductContent from './ProductContent';
 import CartContent from './CartContent';
 
@@ -7,7 +7,7 @@ const tabs = [
   { id: 2, name: "Cart" },
 ];
 
-const Cart = () => {
+const Cart = ({cart, setCart}) => {
   const [activeTab, setActiveTab] = useState(1);
 
   return (
@@ -34,8 +34,8 @@ const Cart = () => {
       </ul>
 
       <div className='mt-6'>
-        {activeTab === 1 && <ProductContent />}
-        {activeTab === 2 && <CartContent />}
+        {activeTab === 1 && <ProductContent cart ={cart} setCart ={setCart}/>}
+        {activeTab === 2 && <CartContent cart ={cart} setCart ={setCart}/>}
       </div>
 
     </div>

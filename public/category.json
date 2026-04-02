@@ -11,7 +11,8 @@
       "Grammar checker"
     ],
     "icon": "🎨",
-    "tagType": "Popular"
+    "tagType": "Popular",
+    "button": "Buy Now"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "Commercial license"
     ],
     "icon": "🎨",
-    "tagType": "Popular"
+    "tagType": "Popular",
+    "button": "Buy Now"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       "No attribution"
     ],
     "icon": "📷",
-    "tagType": "New"
+    "tagType": "New",
+    "button": "Buy Now"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "Custom workflows"
     ],
     "icon": "⚙️",
-    "tagType": "Popular"
+    "tagType": "Popular",
+    "button": "Buy Now"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       "Export to PDF"
     ],
     "icon": "📄",
-    "tagType": "New"
+    "tagType": "New",
+    "button": "Buy Now"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
       "Analytics dashboard"
     ],
     "icon": "📱",
-    "tagType": "Best-seller"
+    "tagType": "Best-seller",
+    "button": "Buy Now"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
       "Encryption"
     ],
     "icon": "☁️",
-    "tagType": "Popular"
+    "tagType": "Popular",
+    "button": "Buy Now"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
       "Reporting dashboard"
     ],
     "icon": "🗂️",
-    "tagType": "New"
+    "tagType": "New",
+    "button": "Buy Now"
   },
   {
     "id": 9,
@@ -123,6 +131,7 @@
       "Email Templates"
     ],
     "icon": "📧",
-    "tagType": "Best-seller"
+    "tagType": "Best-seller",
+    "button": "Buy Now"
   }
 ]
