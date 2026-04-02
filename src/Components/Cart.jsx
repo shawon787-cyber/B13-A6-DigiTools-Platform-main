@@ -12,7 +12,7 @@ const Cart = ({ cart, setCart }) => {
 
   return (
     <div className='max-w-7xl mx-auto px-4 mt-10'>
-      <h1 className='text-center font-bold text-5xl'>Premium Digital Tools</h1>
+      <h1 className='text-center font-bold text-4xl lg:text-5xl'>Premium Digital Tools</h1>
       <p className='text-gray-500 text-center mt-3'>
         Choose from our curated collection of premium digital products designed to boost your productivity and creativity.
       </p>
@@ -22,7 +22,7 @@ const Cart = ({ cart, setCart }) => {
     <li key={tab.id}>
       <button
         onClick={() => setActiveTab(tab.id)}
-        className={`px-4 py-2 font-semibold flex items-center gap-2 transition
+        className={`px-4 py-2 font-semibold flex items-center gap-1 transition
           ${
             activeTab === tab.id
               ? "text-white bg-gradient-to-r from-violet-700 to-fuchsia-500 rounded-full"

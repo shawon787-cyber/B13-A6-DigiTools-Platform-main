@@ -1,4 +1,5 @@
 
+import { ShoppingCart } from 'lucide-react';
 import { toast } from 'react-toastify';
 
 const CartContent = ({ cart, setCart }) => {
@@ -22,14 +23,17 @@ const CartContent = ({ cart, setCart }) => {
   const total = cart.reduce((sum, item) => sum + item.price, 0);
 
   return (
-    <div className="bg-gray-100 p-6 rounded-2xl mb-16">
+    <div className="bg-gray-100 p-10 rounded-2xl mb-16">
 
       <h1 className="text-2xl font-semibold mb-6">Your Cart</h1>
 
       
       <div className="space-y-4">
         {cart.length === 0 ? (
-          <p className="text-gray-500">No items in cart</p>
+          <div className='flex flex-col justify-center items-center text-4xl text-gray-800 font-semibold py-10 border-gray-500/20 border-2 rounded-2xl'>
+            <ShoppingCart className='  h-14 w-14'></ShoppingCart>
+            <h3 className='mt-2'>Your Cart Is Currently Empty</h3>
+          </div>
         ) : (
           cart.map((item, index) => (
             <div
