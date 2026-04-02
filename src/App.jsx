@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-     <Navbar></Navbar>
+     <Navbar cart={cart}></Navbar>
      <Hero></Hero>
      <Rating></Rating>
      <Cart cart ={cart} setCart ={setCart}></Cart>
